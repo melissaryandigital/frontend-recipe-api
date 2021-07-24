@@ -4,6 +4,7 @@
   "description": "API-based frontend skill test",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "start:api": "json-server --watch data.json --id uuid --port 3001",
     "start": "webpack -w"
   },
@@ -34,8 +35,11 @@
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.14.8",
     "@babel/preset-react": "^7.14.5",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.2.0",
+    "enzyme": "^3.11.0",
+    "jest": "^27.0.6",
     "style-loader": "^3.2.1",
     "styled-components": "^5.3.0",
     "webpack": "^5.46.0",
