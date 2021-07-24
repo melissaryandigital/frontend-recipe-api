@@ -23,6 +23,11 @@ const RecipeDetailContainer = styled.div`
     font-style: italic;
     color: #d54215;
   }
+
+  ol li {
+    padding: 4px;
+  }
+
   span {
     font-size: 14px;
   }

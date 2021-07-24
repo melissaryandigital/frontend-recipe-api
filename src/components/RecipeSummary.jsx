@@ -12,13 +12,15 @@ const RecipeContainer = styled.div`
   overflow: hidden;
   position: relative;
 
+
   div.summaryDetails {
     float:right;
     width: 380px;
+    margin-top: -30px;
   }
 
   div.description {
-    margin-bottom: 10px;
+    margin: -20px 0 10px 0;
   }
 
   div.prep {
